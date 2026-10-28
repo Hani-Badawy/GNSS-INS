@@ -1,0 +1,6 @@
+[submodule "3rdparty/eigen"]
+	path = 3rdparty/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "3rdparty/matplot"]
+	path = 3rdparty/matplot
+	url = https://github.com/lava/matplotlib-cpp.git
