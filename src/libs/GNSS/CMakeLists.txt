@@ -1,0 +1,5 @@
+add_library(GNSS STATIC src/Gnss.cpp src/LSQSolver.cpp include/gnss/Gnss.h include/gnss/LSQSolver.h)
+target_include_directories(GNSS PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
+target_link_libraries(GNSS PRIVATE Util)
+target_link_libraries(GNSS PUBLIC Eigen3::Eigen)
+set_target_properties(GNSS PROPERTIES FOLDER "libs")

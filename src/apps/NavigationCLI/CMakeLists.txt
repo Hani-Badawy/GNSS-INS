@@ -1,0 +1,5 @@
+add_executable(NavigationCLI main.cpp)
+target_link_libraries(NavigationCLI PRIVATE GNSS IMU INS SensorFusion Util)
+target_link_libraries(NavigationCLI PUBLIC Eigen3::Eigen)
+target_link_libraries(NavigationCLI PRIVATE matplot)
+set_target_properties(NavigationCLI PROPERTIES FOLDER "apps")

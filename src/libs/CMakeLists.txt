@@ -1,0 +1,6 @@
+add_subdirectory(NavCore)
+add_subdirectory(GNSS)
+add_subdirectory(IMU)
+add_subdirectory(INS)
+add_subdirectory(SensorFusion)
+add_subdirectory(Util)

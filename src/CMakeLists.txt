@@ -1,0 +1,8 @@
+add_subdirectory(libs)
+add_subdirectory(apps)
+if(GNSS_INS_BUILD_TOOLS)
+    add_subdirectory(tools)
+endif()
+#if(BUILD_TESTING AND GNSS_INS_BUILD_TESTS)
+    add_subdirectory(tests)
+#endif()
